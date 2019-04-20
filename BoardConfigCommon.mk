@@ -90,6 +90,9 @@ TARGET_USES_HWC2 := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Flag for kernel headers generator
+BOARD_USES_QCOM_HARDWARE := true
+
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := \
     org.lineageos.hardware|$(COMMON_PATH)/lineagehw|**/*.java
