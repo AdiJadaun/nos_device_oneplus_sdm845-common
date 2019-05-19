@@ -124,6 +124,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# ThermalController App
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # tri-state-key
 PRODUCT_PACKAGES += \
     KeyHandler \
