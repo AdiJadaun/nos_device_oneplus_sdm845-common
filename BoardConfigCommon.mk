@@ -20,6 +20,10 @@ COMMON_PATH := device/oneplus/sdm845-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
+ifeq ($(TARGET_DEVICE),enchilada)
+TARGET_OTA_ASSERT_DEVICE := OnePlus6
+endif
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
