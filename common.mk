@@ -85,8 +85,7 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    ims-ext-common
+    android.hidl.base@1.0
 
 # Input
 PRODUCT_COPY_FILES += \
