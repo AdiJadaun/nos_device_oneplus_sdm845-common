@@ -85,7 +85,8 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0
+    android.hidl.base@1.0 \
+    ims-ext-common
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -147,3 +148,10 @@ PRODUCT_PACKAGES_DEBUG += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
